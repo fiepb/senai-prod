@@ -1,8 +1,6 @@
 import Header from "./components/CustomHeader";
 import TreeTable from "./components/CustomTreeTable";
 
-import { columnsData, rowData } from "./data/tableData";
-
 function Home() {
   return (
     <div>
@@ -13,7 +11,6 @@ function Home() {
         Acompanhamento de Cursos e Métricas do SENAI 2024
       </div>
       <div className="px-8">
-        {/* <TreeTable columns={columnsData} data={rowData} /> */}
         <TreeTable />
       </div>
     </div>
