@@ -1,5 +1,5 @@
-import Header from "./components/CustomHeader";
-import TreeTable from "./components/CustomTreeTable";
+import Header from "./my_components/CustomHeader";
+import TreeTable from "./my_components/CustomTreeTable";
 
 function Home() {
   return (
