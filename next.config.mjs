@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/senai-prod",
-  assetPrefix: "/senai-prod/",
+  images: { unoptimized: true },
+  // basePath: "/senai-prod",
+  // assetPrefix: "/senai-prod/",
   eslint: {
     ignoreDuringBuilds: true,
   },
